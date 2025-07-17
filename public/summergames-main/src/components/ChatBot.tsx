@@ -53,9 +53,9 @@ const ChatBot = () => {
         // Configure AWS with the updated credentials
         window.AWS.config.region = 'us-east-1';
         window.AWS.config.credentials = new window.AWS.Credentials({
-          accessKeyId: 'ASIA27PR364I6R6W2T5U',
-          secretAccessKey: '3yU+1LmI3MHJVfkjY8PegSKKjmXaowSt+nR8rH80',
-          sessionToken: 'IQoJb3JpZ2luX2VjEGEaCXVzLWVhc3QtMSJHMEUCIFBZTluBS5cS+9/wOacWZqHNhz3IBC38gYQAwL5UMPSsAiEAyIbkvs484OTdrEuDibid5rK4kR38OgXQbgeWmyfw06oq+QIIehAAGgw3NTQ4MTA4Nzc3MTMiDE4pj+vY2eaVs1A5iirWAmdH+Ig2RzREjLmT6hH5a+cc3cQ5gmAeDiEsrnGJbtTH3Doa/0jr2flZAxNEQwNnTPCjh7XAmNdkM7R50wE05hPQr2B2WU2ldpfbFuqU4UOAO5aOP9m0JH8uBBVCP/axzvwUPqcwlMqdzxqpWghsakU4D/7ZDnZ+Tq5/dVW7ZeU5bbmm1i+a+pMMQV3JePu9tXn5ZFxkd18oHDjUwSnPHk/zTvyavNTHRXoBglpfJov+zDAFlr6byaEKZWW0QpdnY2igpbz5HKru/suQjDjJe9a3CUSDmeP9RQV8AVz1JVJa/A8qKU74VyCFr0qAjpggpSJ0nrv3ii359SoSJPSEWGIq7ngyebi+KyCKBcN71fjBY6GW3O7/Gp20amU7tvTNeSj5r7tsy8zYFFjah8P/qDMW/OQiOKNjwd+XYB0Izqwl5EubGcnOdO3E5gnkieNvGCdmrRcBozCrz+TDBjqnATNEPkAVox+WRvqv79Or13AUjLRj3jEJ7EePM4aJZBSR2RK6JbtqBkghOog3g9wtViZt3cYdaRnaxHt6FguZFLZhQYdTS08/CbtbD3Eb5y8k3API0lwu6wScaaQ9D1ZTprruaF0mGaeewjPfSEm8NQOnfd0Zc5vZGLrJh9oTjUXImOz1wj5u/Wj4qRxHJ+BpOu76UWmed69AYhbvsoibK5vXMztaMJCB'
+          accessKeyId: '',
+          secretAccessKey: '',
+          sessionToken: ''
         });
 
         console.log('Creating Lex client...');
