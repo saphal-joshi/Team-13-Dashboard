@@ -16,13 +16,13 @@ const mimeTypes = {
 
 // Load SSL certificates
 const options = {
-  key: fs.readFileSync(path.join(__dirname, "certs", "sg25t13+2-key.pem")),
-  cert: fs.readFileSync(path.join(__dirname, "certs", "sg25t13+2.pem")),
+  key: fs.readFileSync(path.join(__dirname, "Certs", "sg25t13+2-key.pem")),
+  cert: fs.readFileSync(path.join(__dirname, "Certs", "sg25t13+2.pem")),
 };
 
 // Create HTTPS server
 https.createServer(options, (req, res) => {
-  let filePath = path.join(__dirname, "public", req.url === "/" ? "webapptest.html" : req.url);
+  let filePath = path.join(__dirname, "public", "summergames-main", "dist", req.url === "/" ? "index.html" : req.url);
 
 console.log("Requested:", req.url);
 console.log("Resolved path:", filePath);
