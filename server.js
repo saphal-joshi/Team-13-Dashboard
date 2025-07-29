@@ -22,7 +22,7 @@ const options = {
 
 // Create HTTPS server
 https.createServer(options, (req, res) => {
-  let filePath = path.join(__dirname, "public", "summergames-main", "dist", req.url === "/" ? "index.html" : req.url);
+  let filePath = path.join(__dirname, "public", "DashboardWebsite-main", "dist", req.url === "/" ? "index.html" : req.url);
 
 console.log("Requested:", req.url);
 console.log("Resolved path:", filePath);
